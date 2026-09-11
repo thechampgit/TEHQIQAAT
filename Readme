@@ -1,14 +1,14 @@
 # TEHQIQAAT
 
-### Agentic AI for Identity & Travel Document Screening
+Agentic AI for Identity & Travel Document Screening
 
-> **Investigate. Verify. Assess.**
+> Investigate. Verify. Assess.
 
-**Smart India Hackathon (SIH) — Problem Statement #188**
+Smart India Hackathon (SIH) — Problem Statement #188
 
-TEHQIQAAT is an **agentic AI-powered document screening platform** designed to assist authorized personnel in analyzing passports, visas, identity documents, permits, and other travel documents.
+TEHQIQAAT is an agentic AI-powered document screening platform designed to assist authorized personnel in analyzing passports, visas, identity documents, permits, and other travel documents.
 
-Instead of following a fixed verification pipeline, TEHQIQAAT uses an AI agent that can **decide what to check next, adapt to intermediate results, handle failures, and generate an explainable risk assessment**.
+Instead of following a fixed verification pipeline, TEHQIQAAT uses an AI agent that can decide what to check next, adapt to intermediate results, handle failures, and generate an explainable risk assessment.
 
 ---
 
@@ -22,7 +22,7 @@ Existing systems often rely heavily on manual inspection and basic database look
 
 ## Our Solution
 
-TEHQIQAAT turns document verification into an **adaptive investigation workflow**.
+TEHQIQAAT turns document verification into an adaptive investigation workflow.
 
 The agent can coordinate multiple tools such as:
 
@@ -44,11 +44,11 @@ For example, low OCR confidence can trigger image enhancement and re-extraction,
 
 TEHQIQAAT demonstrates:
 
-* **Goal-Driven Execution** — works toward completing a defined screening objective.
-* **Dynamic Action Selection** — chooses appropriate verification tools based on evidence.
-* **Multi-Step Execution** — coordinates multiple verification operations.
-* **Adaptation** — changes its workflow when new or unreliable results appear.
-* **Robustness** — retries failed operations or escalates unresolved cases for human review.
+* Goal-Driven Execution — works toward completing a defined screening objective.
+* Dynamic Action Selection — chooses appropriate verification tools based on evidence.
+* Multi-Step Execution — coordinates multiple verification operations.
+* Adaptation — changes its workflow when new or unreliable results appear.
+* Robustness — retries failed operations or escalates unresolved cases for human review.
 
 ---
 
@@ -66,94 +66,9 @@ TEHQIQAAT demonstrates:
 
 ---
 
-## Tech Stack
-
-**Frontend**
-
-* React.js
-* Tailwind CSS
-
-**Backend**
-
-* Python
-* FastAPI
-
-**AI & Computer Vision**
-
-* OCR
-* OpenCV
-* Face verification
-* Image forensics
-* LLM-based agent
-
-**Deployment**
-
-* Web-based application with reproducible local setup
-
----
-
-## Project Structure
-
-```text
-TEHQIQAAT/
-├── frontend/
-├── backend/
-│   ├── agent/
-│   ├── tools/
-│   ├── models/
-│   └── services/
-├── docs/
-├── sample-data/
-├── .env.example
-├── requirements.txt
-└── README.md
-```
-
----
-
-## Getting Started
-
-### Clone the repository
-
-```bash
-git clone <repository-url>
-cd TEHQIQAAT
-```
-
-### Backend
-
-```bash
-cd backend
-pip install -r requirements.txt
-uvicorn main:app --reload
-```
-
-### Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Configure the required API keys and environment variables using `.env.example`.
-
----
-
 ## Documentation
 
-Detailed documentation covering the **system architecture, agent workflow, modules, decision logic, AI models, risk assessment, and implementation details** is available in the [`docs/`](./docs) directory.
+Detailed documentation covering the system architecture, agent workflow, modules, decision logic, AI models, risk assessment, and implementation details is available in the directory.
 
 ---
 
-## Disclaimer
-
-TEHQIQAAT is a **hackathon prototype and decision-support system**. It is not intended to autonomously determine whether a person or document is legally admissible or fraudulent. Final decisions remain with authorized personnel.
-
----
-
-### TEHQIQAAT
-
-**Investigate. Verify. Assess.**
-
-*SIH Problem Statement #188*
